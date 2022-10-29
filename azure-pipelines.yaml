@@ -20,7 +20,7 @@ stages:
           inputs:
             knownHostsEntry: 'known_hosts'
             sshPublicKey: '$(public_key)'
-            sshKeySecureFile: 'az_eqr_id_rsa'
+            sshKeySecureFile: 'id_rsa_azure_portal'
             
         - task: TerraformInstaller@0
           displayName: Install terraform
