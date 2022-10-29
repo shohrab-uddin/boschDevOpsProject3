@@ -7,7 +7,7 @@ tenant_id = "f958e84a-92b8-439f-a62d-4f45996b6d07"
 # Resource Group/Location
 location = "EastUS"
 resource_group = "Azuredevops" # The same resource_group use to create the backend state and container
-application_type = "p3demo"
+application_type = "devOpsP3"
 
 # Network
 virtual_network_name = "P3_vnet"
@@ -16,4 +16,4 @@ address_prefix_test = "10.5.1.0/24"
 
 
 # Tags
-demo = "p3demo"
+demo = "devOpsP3"
