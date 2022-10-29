@@ -140,7 +140,7 @@ stages:
                   ConnectionType: 'AzureRM'
                   azureSubscription: 'service-connection-azurerm'
                   appType: 'webApp'
-                  WebAppName: 'p3demo-AppService'
+                  WebAppName: 'devOpsP3-AppService'
                   packageForLinux: '$(Pipeline.Workspace)/drop-fakerestapi/fakerestapi-$(Build.BuildId).zip'
                   DeploymentType: zipDeploy 
 
