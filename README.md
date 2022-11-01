@@ -1,4 +1,4 @@
-# boschDevOpsProject3# BoshAIProject3
+# BoshAIProject3
 
 Steps involved:
 1. Download the Project Starter Folder and open it in VS code
@@ -69,7 +69,7 @@ Create AppServiceHTTPLogs
 1. Go to the App service > Diagnostic Settings > + Add Diagnostic Setting. Tick AppServiceHTTPLogs and Send to Log Analytics Workspace created on step above and Save.
 2. Go back to the App service > App Service Logs . Turn on Detailed Error Messages and Failed Request Tracing > Save. Restart the app service.
 Setting up Log Analytics
-3. Set up custom logging, in the log analytics workspace go to Settings > Custom Logs > Add + > Choose File. Select the file selenium.log > Next > Next. Put in the following paths as type Linux:
+3. Set up custom logging, in the log analytics workspace go to Custom Logs > Add + > Choose File. Select the file selenium.log > Next > Next. Put in the following paths as type Linux:
 /var/log/selenium/selenium.log
 I called it selenium_CL, Tick the box Apply below configuration to my Linux machines.
 Go back to Log Analytics workspace and run below query to see Logs
