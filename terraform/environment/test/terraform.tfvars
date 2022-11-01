@@ -1,7 +1,7 @@
 # Azure subscription vars
-subscription_id = "456cc604-544c-45f8-99d0-c1b73aeec440"
-client_id = "bfc85519-ceca-4d89-bc0f-d356c370a7a6"
-client_secret = "Vh58Q~geza0xCYRChsZN0s9fkwj5t9yslL04cbmO"
+subscription_id = "0b72aa91-69d1-4842-8da0-1dbc098c1665"
+client_id = "9672d381-fde1-4117-b0a4-43b2f96787db"
+client_secret = "v1a8Q~E7sELj4Ys4CduIFxCdwnelIQ-~b1FJpaNe"
 tenant_id = "f958e84a-92b8-439f-a62d-4f45996b6d07"
 
 # Resource Group/Location
