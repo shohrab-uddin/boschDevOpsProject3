@@ -14,7 +14,7 @@
 						"exec": [
 							"\r",
 							"var code=pm.response.code;\r",
-							"if(\"429\" != code){\r",
+							"if(\"420\" != code){\r",
 							"pm.test(\"Successful response\", function () {\r",
 							"    pm.expect(pm.response.text()).to.include(\"success\");\r",
 							"});\r",
@@ -27,9 +27,9 @@
 							"pm.test(\"Validate Data\", function () {\r",
 							"   \r",
 							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData.data.name).to.equals(\"Dummy Name\");\r",
-							"    pm.expect(jsonData.data.age).to.equal(\"19\");\r",
-							"    pm.expect(jsonData.data.salary).to.equal(\"1000\");\r",
+							"    pm.expect(jsonData.data.name).to.equals(\"Shohrab\");\r",
+							"    pm.expect(jsonData.data.age).to.equal(\"40\");\r",
+							"    pm.expect(jsonData.data.salary).to.equal(\"100000\");\r",
 							"});\r",
 							"}\r",
 							"\r",
@@ -44,7 +44,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"name\": \"Dummy Name\",\r\n\"salary\": \"1000\",\r\n\"age\": \"19\"\r\n}",
+					"raw": "{\r\n\"name\": \"Shohrab\",\r\n\"salary\": \"100000\",\r\n\"age\": \"40\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -76,7 +76,7 @@
 					"script": {
 						"exec": [
 							"var code=pm.response.code;\r",
-							"if(\"429\" != code){\r",
+							"if(\"420\" != code){\r",
 							"\r",
 							"pm.test(\"Status code is 200\", function () {\r",
 							"  pm.response.to.have.status(200);\r",
@@ -128,7 +128,7 @@
 					"script": {
 						"exec": [
 							"var code=pm.response.code;\r",
-							"if(\"429\" != code){\r",
+							"if(\"420\" != code){\r",
 							"    pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
 							"    });\r",
@@ -164,7 +164,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Changed name\",\r\n    \"salary\": \"2000\",\r\n    \"age\": \"32\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Uddin\",\r\n    \"salary\": \"250000\",\r\n    \"age\": \"35\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -197,7 +197,7 @@
 					"script": {
 						"exec": [
 							"var code=pm.response.code;\r",
-							"if(\"429\" != code){\r",
+							"if(\"420\" != code){\r",
 							"pm.test(\"Successful response\", function () {\r",
 							"    pm.expect(pm.response.text()).to.include(\"success\");\r",
 							"});\r",
